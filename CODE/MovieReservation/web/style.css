@@ -1,0 +1,53 @@
+/* 
+    Document   : style
+    Created on : 22 Aug, 2011, 6:03:43 PM
+    Author     : guest
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+p {
+    color:#009900; 
+    font-family:"comic sans ms",sans-serif; 
+}
+
+h1 { 
+    color:#123456; font-size:22pt;
+}
+
+body {
+    background-image: url("bck.gif"); 
+}
+div {position:absolute; top:12em; margin-left:16em}
+form{
+    text-align:left;	  
+    border:1px outset #74B7CF;		 
+    margin-top:5px;
+    padding:10px 30px;			 
+}
+input[type="text"] {
+    width:200px;
+    font-size:1em;
+}
+input[type="password"] {
+    width:200px;
+    font-size:1em;
+}
+input[type="submit"] {
+    width:75px;
+    font-size:1em;
+}
+
+textarea {
+    width:50px;
+    font-size:1em;
+}

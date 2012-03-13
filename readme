@@ -1,0 +1,33 @@
+						Online Movie Reservation System
+
+System Requirements
+-------------------
+	1)Apache2 webserver with tomcat.
+	2)MySql database server version 5.0 or higher.
+	3)Web Browser.
+	
+Set up Apache server	
+--------------------
+Start the apache server.
+	/etc/init.d/apache2 start    (Ubuntu)
+	apachectl start    (Fedora)
+	
+Set up MySql database
+---------------------
+Start the mysql database 
+	/etc/init.d/mysql start
+	User name 	: root
+	Password  	: asdfgh
+	Database Name	: movie_reservaion
+	
+Installation
+------------
+1. Unzip the file
+
+2. Move the code to /var/www
+
+3. Create tables
+	
+4. Login
+	Start the browser with URL "localhost/MovieReservation/index.jsp"
+
